@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito+Sans:opsz,wght@6..12,300&family=Nunito:ital,wght@0,400;1,300&family=Poppins:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito+Sans:opsz,wght@6..12,300&family=Nunito:ital,wght@0,400;1,300&family=Poppins:wght@300;400&family=Raleway&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    text-decoration: none;
+}
+body {
+    background-image: radial-gradient( circle, rgb(51, 51, 206), rgb(2, 255, 255));
+}
+nav {
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Polygon", sans-serif;
+    background-color: hsla(0, 0%, 0%, 0.1 );
+}  
+
+li {
+    display: inline-block;
+    
+    margin: 0 5px;
+}
+nav a {
+   text-transform: uppercase;
+}
+
+main {
+    color: whitesmoke;
+}
+.fade-in {
+    font-size: 2.5rem;
+}
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+.firstsection > div {
+    width: 30%;
+}
+.rightsection {
+    font-size: 3rem;
+}
+.leftsection img {
+    width: 35vw;
+    margin: 20px 0;
+}
+
+.purple {
+    color:black;
+}
+#element {
+    color: black;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+}
+.text-gray {
+    color: black;
+}
+main hr {
+    border: 0;
+    background: black;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.secondsection h1 {
+    font-size: 3rem;
+}
+.secondsection h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+.secondsection h1{
+    color: whitesmoke;
+}
+.secondsection p {
+    color: black;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+ul {
+    display: flex;
+}  
+
+ul li {
+    list-style: none;
+    padding: 0 15px;
+}
+ul li a {
+    color: black;
+}
+ul li a:hover {
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: 0.5s;
+}
+.login-box {
+    box-shadow:  0 0 10px #00ffff, 0 0 15px #00ffff, 0 0 20px #00ffff;
+    width: 50vh;
+    height: auto;
+    margin: auto;
+    position: relative;
+    border-radius: 15px;
+    transform: translate(auto);
+}
+.login-box .user-box input {
+    position: relative;
+    margin-left: 25px;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    border: none;
+    outline: none;
+}
+.login-box .user-box label {
+    margin-left: 25px;
+    position: relative;
+    left: 0;
+    top: -60%;
+    padding: 16px 0;
+    font-size: 16px;
+    color: rgb(194, 191, 191);
+    pointer-events: none;
+    transition: 0.5s;
+}
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    font-size: 12px;
+    top: 0;
+    left: -60%;
+    color: #8f7ECE;
+}
+#submit {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    margin: auto;
+    border: 1px solid rgb(167, 235, 212);
+    border-radius: 25px;
+}
+#submit:hover {
+    background-color: aquamarine;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white;
+    border-radius: 25px;
+}
+.button-form {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    margin-bottom: 5px;
+}
+@media (max-width: 901px){
+    
+    nav {
+        flex-direction: column;
+    }
+    nav ul {
+        font-size: 20px;
+    }
+
+    .firstsection {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .rightsection {
+        font-size: 2rem;
+    }
+    .login-box {
+        box-shadow:  0 0 10px #00ffff, 0 0 15px #00ffff, 0 0 20px #00ffff;
+        width: 35vh;
+        height: auto;
+        margin: auto;
+        position: relative;
+        border-radius: 15px;
+        transform: translate(auto);
+    }
+
+}
+@media (max-width: 648px) {
+    nav ul {
+        font-size: 10px;
+    }
+    .fade-in {
+        font-size: 2rem;
+    }
+}
+.links {
+    display: inline-block;
+    padding: 5px;
+}
+footer {
+    text-align: center;
+    color: black;
+    padding: 19px 12px;
+    margin-top: 10vh;
+    font-family: "Polygon", sans-serif;
+    background: white;
+    background-color: hsla(0, 0%, 0%, 0.1);
+}
+
+
